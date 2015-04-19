@@ -1,0 +1,70 @@
+<!DOCTYPE  html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+ 		<title>BIOMORPHS</title>
+		<link rel="stylesheet" type="text/css" href="styles/main.css">
+	</head>
+
+	<body> 
+		<div id="backgroundImage">
+			
+		<div id="container">
+			
+			<div id="banner">
+				<img id="logo" src="images/logo.png"/>
+			<h2>Evolution by Artificial Selection</h2>
+			</div>
+			
+			<div id="instructions">
+				
+				<h3>How to Play:</h3>
+				<ul>
+					<li> A new game will generate three random Biomorphs </li>
+					<li> Make the Biomorphs evolve by selecting one of the <b>Child Biomorphs</b> </li>
+					<li> This will make it the <b>Parent Biomorph</b> and three more Children will be generated based on slight mutations of the Parent's "genome" </li>
+					<li>When selecting the Child Biomorphs, try focusing on one feature, like polygon radius or arm length, to illustrate the principal of evolution! </li>
+				</ul>
+			</div>
+			<div id="gameboard-container">
+				<button id="newgame-button">New Game </button>
+					<div id="gameboard">
+						
+						<div id="p1"><h3>Parent</h3>
+							<canvas id="parentCanvas" width=150 height=150>
+							  If you are seeing this, you need to upgrade your browser!
+							</canvas>
+						</div>
+						<h3>Children</h3>
+						<div id="children">	
+						
+							<canvas id="childCanvas1" value="1"  width=150 height=150>
+							  If you are seeing this, you need to upgrade your browser!
+							</canvas>
+							
+							
+							
+							<canvas id="childCanvas2" value="2" width=150 height=150>
+							  If you are seeing this, you need to upgrade your browser!
+							</canvas>
+						
+							
+							
+							<canvas id="childCanvas3" value="3" width=150 height=150>
+							  If you are seeing this, you need to upgrade your browser!
+							</canvas>	
+							
+						</div>	
+					</div>
+				 </div>	
+				 <div id="game-info"> 
+				 	Our Biomorphs game was inspired by the game of the same name that was created for Richard Dawkin's <a href="http://youtu.be/Ok_tcAEbHHw?t=26m17s">'The Blind Watchmaker'</a> as a way to illustrate how slight mutations over many generations result in the evolution of different species. Click <a href="http://en.wikipedia.org/wiki/The_Blind_Watchmaker_%28film%29">here</a> for more information on the Blind Watchmaker. Huge thanks and credits to Joseph Fall and Matthew Strimas-Mackey for lots of ideas and help.
+				 	</div>
+		</div>	
+  	<script src="js/biomorphsGUI.js"></script>
+	<script src="js/biomorphsApp.js"></script>
+	
+	</body>
+	<footer>
+	</footer>
+</html>

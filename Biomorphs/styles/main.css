@@ -1,0 +1,79 @@
+body{
+	background-image: url("../images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	font-family: tahoma;
+}
+#banner{
+	margin-left:auto;
+	margin-right:auto;	
+	width:80%;
+	text-align:center;
+
+}
+#logo {
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#instructions{
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#parentCanvas{
+	border:solid;
+	background-color:#C7FF77;
+}
+#childCanvas1{
+	border:solid;
+	background-color:#B8FF5A;
+}
+#childCanvas2{
+	border:solid;
+	background-color:#B8FF5A;
+}
+#childCanvas3{
+	border:solid;
+	background-color:#B8FF5A;
+}
+
+#gameboard{
+	background-color:#93CC48;
+	padding:15pt;
+	width:550pt;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-top:5pt;
+	clear:right;
+}
+#gameboard-container{
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	border:solid;
+	min-width:600pt;
+	background-color:#93CC48;
+}
+
+#newgame-button {
+	margin:15pt;
+	float:right;
+	
+}
+
+#game-info {
+	min-width:600pt;
+	text-align: center;
+	margin-right:auto;
+	margin-left:auto;
+	margin: 15pt;
+}
+footer{
+	height:75pt;
+
+}
